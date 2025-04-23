@@ -1,0 +1,112 @@
+{
+  "theme.bar.location": "top",
+  "bar.autoHide": "never",
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.floating": true,
+  "theme.bar.border.location": "none",
+  "theme.bar.enableShadow": false,
+  "wallpaper.enable": false,
+  "wallpaper.pywal": false,
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.menus.opacity": 80,
+  "theme.bar.transparent": true,
+  "theme.bar.buttons.style": "wave2",
+  "theme.bar.opacity": 80,
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 30,
+  "theme.bar.buttons.background": "#000000",
+  "theme.bar.buttons.monochrome": true,
+  "bar.battery.label": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "cputemp",
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.bar.scaling": 90,
+  "menus.transition": "crossfade",
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.weather.location": "J1E3G4",
+  "menus.clock.weather.enabled": false,
+  "wallpaper.image": "",
+  "theme.bar.menus.label": "#ffffff",
+  "theme.bar.menus.icons.active": "#ffffff",
+  "theme.bar.menus.buttons.default": "#ffffff",
+  "theme.bar.menus.iconbuttons.active": "#ffffff",
+  "theme.bar.menus.popover.text": "#ffffff",
+  "theme.bar.buttons.icon": "#ffffff",
+  "theme.bar.buttons.text": "#ffffff",
+  "theme.bar.buttons.borderColor": "#ffffff",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "FireFox",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
+  "menus.dashboard.shortcuts.left.shortcut3.icon": "",
+  "menus.dashboard.powermenu.avatar.name": "Samuel Delage",
+  "menus.dashboard.powermenu.avatar.image": "/home/sdelage/Pictures/d3l8s0g-ffaebf8b-93e1-4a8f-b567-039480528fdd.png",
+  "menus.dashboard.directories.left.directory1.label": "  Downloads",
+  "menus.dashboard.directories.left.directory2.label": "󱧶 Documents",
+  "menus.dashboard.directories.left.directory3.label": "",
+  "menus.dashboard.directories.left.directory1.command": "bash -c \"nautilus $HOME/Downloads/\"",
+  "menus.dashboard.directories.left.directory2.command": "bash -c \"nautilus $HOME/Documents/\"",
+  "menus.dashboard.directories.left.directory3.command": "",
+  "menus.dashboard.directories.right.directory2.command": "bash -c \"nautilus $HOME/\"",
+  "menus.dashboard.directories.right.directory3.label": "",
+  "menus.dashboard.directories.right.directory3.command": "",
+  "menus.dashboard.directories.right.directory2.label": "󱂵 Home",
+  "menus.dashboard.directories.right.directory1.command": "bash -c \"nautilus $HOME/Pictures/\"",
+  "menus.dashboard.directories.right.directory1.label": "󰉏 Pictures",
+  "menus.dashboard.stats.enable_gpu": false,
+  "menus.dashboard.stats.interval": 1000,
+  "theme.bar.buttons.modules.cpuTemp.enableBorder": true,
+  "bar.customModules.cpuTemp.sensor": "/sys/class/thermal/thermal_zone2/temp",
+  "theme.bar.buttons.modules.cpu.enableBorder": false,
+  "bar.customModules.cpuTemp.unit": "metric",
+  "bar.customModules.cpuTemp.pollingInterval": 500,
+  "theme.bar.outer_spacing": "1.0em",
+  "theme.bar.buttons.y_margins": "0em"
+}
